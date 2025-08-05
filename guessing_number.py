@@ -17,7 +17,7 @@ while attempts < max_attempts:
     elif guess > number:
         print(f"  Too high! Attempts left: {max_attempts - attempts}\n")
     else:
-        print(f" Woowww!! You guessed it right in {attempts} attempts 😎")
+        print(f" Woowww!! You guessed it right in {attempts} attempts ")
         break
 
 if guess != number:
